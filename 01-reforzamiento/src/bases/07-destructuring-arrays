@@ -1,0 +1,6 @@
+const characterNames = ['first', 'second', 'third', 'fourth']
+
+const [,a2] = characterNames; //extract  second only
+
+const [b1,b2,b3,b4] = characterNames; //extract and destructure all
+
